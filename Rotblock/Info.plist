@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fraunces.ttf</string>
+		<string>Fraunces-Italic.ttf</string>
+	</array>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>Rotblock uses notifications to keep you updated.</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.n1labs.rotblock.schedule_check</string>
+		<string>com.n1labs.rotblock.premium_check</string>
+		<string>com.n1labs.rotblock.blocking_registration_check</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Rotblock uses your location to automatically apply focus presets when you leave a specific area.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Rotblock needs &quot;always on&quot; location access to apply focus limits in the background when you enter or leave a location.</string>
+</dict>
+</plist>

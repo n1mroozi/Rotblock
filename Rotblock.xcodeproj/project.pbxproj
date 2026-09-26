@@ -1,0 +1,1701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C8E064F6905482DBF1A5286 /* LimitPresetSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDDE6492C642D8A411669E /* LimitPresetSchedule.swift */; };
+		1F4FB91A3F8E4763A79CB09B /* LimitPresetSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDDE6492C642D8A411669E /* LimitPresetSchedule.swift */; };
+		6E217D812FAE4AA200184223 /* ShieldConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E217D7F2FAE4A9E00184223 /* ShieldConfigManager.swift */; };
+		6E217D822FAE4AA200184223 /* ShieldConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E217D7F2FAE4A9E00184223 /* ShieldConfigManager.swift */; };
+		6E217D842FAE4AA200184223 /* ShieldConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E217D7F2FAE4A9E00184223 /* ShieldConfigManager.swift */; };
+		6E217D852FAE4AA200184223 /* ShieldConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E217D7F2FAE4A9E00184223 /* ShieldConfigManager.swift */; };
+		6E217D872FAE564900184223 /* ShieldActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E217D862FAE564600184223 /* ShieldActionManager.swift */; };
+		6E217D882FAE564900184223 /* ShieldActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E217D862FAE564600184223 /* ShieldActionManager.swift */; };
+		6E217D892FAE564900184223 /* ShieldActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E217D862FAE564600184223 /* ShieldActionManager.swift */; };
+		6E217D8A2FAE564900184223 /* ShieldActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E217D862FAE564600184223 /* ShieldActionManager.swift */; };
+		6E217D8B2FAE564900184223 /* ShieldActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E217D862FAE564600184223 /* ShieldActionManager.swift */; };
+		6E217D8C2FAE564900184223 /* ShieldActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E217D862FAE564600184223 /* ShieldActionManager.swift */; };
+		6E2180FE2FB0DC1D00184223 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2180FD2FB0DC1900184223 /* LocalNotificationManager.swift */; };
+		6E2180FF2FB0DC1D00184223 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2180FD2FB0DC1900184223 /* LocalNotificationManager.swift */; };
+		6E2181002FB0DC1D00184223 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2180FD2FB0DC1900184223 /* LocalNotificationManager.swift */; };
+		6E2181012FB0DC1D00184223 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2180FD2FB0DC1900184223 /* LocalNotificationManager.swift */; };
+		6E2181022FB0DC1D00184223 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2180FD2FB0DC1900184223 /* LocalNotificationManager.swift */; };
+		6E2181032FB0DC1D00184223 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2180FD2FB0DC1900184223 /* LocalNotificationManager.swift */; };
+		6E2188BF2FB145DB00184223 /* WidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2188BE2FB145D900184223 /* WidgetManager.swift */; };
+		6E2188C02FB145DB00184223 /* WidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2188BE2FB145D900184223 /* WidgetManager.swift */; };
+		6E2188C12FB145DB00184223 /* WidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2188BE2FB145D900184223 /* WidgetManager.swift */; };
+		6E2188C22FB145DB00184223 /* WidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2188BE2FB145D900184223 /* WidgetManager.swift */; };
+		6E2188C32FB145DB00184223 /* WidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2188BE2FB145D900184223 /* WidgetManager.swift */; };
+		6E2188C42FB145DB00184223 /* WidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2188BE2FB145D900184223 /* WidgetManager.swift */; };
+		6E218D472FB24C6800184223 /* PresetIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E218D432FB24C6800184223 /* PresetIntents.swift */; };
+		6E218D4C2FB24C6800184223 /* PresetIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E218D432FB24C6800184223 /* PresetIntents.swift */; };
+		6E313AD12FA5199600A42321 /* AppUnlockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E313AD02FA5199300A42321 /* AppUnlockStore.swift */; };
+		6E313AD32FA5199600A42321 /* AppUnlockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E313AD02FA5199300A42321 /* AppUnlockStore.swift */; };
+		6E313AD42FA5199600A42321 /* AppUnlockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E313AD02FA5199300A42321 /* AppUnlockStore.swift */; };
+		6E313AD62FA5199600A42321 /* AppUnlockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E313AD02FA5199300A42321 /* AppUnlockStore.swift */; };
+		6E313AD82FA556D800A42321 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E313AD72FA556D800A42321 /* DeviceActivity.framework */; };
+		6E313AD92FA556EB00A42321 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA25E2E2F79C526007A3BAA /* ManagedSettings.framework */; };
+		6E313ADA2FA5807900A42321 /* AppUnlockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E313AD02FA5199300A42321 /* AppUnlockStore.swift */; };
+		6E313ADB2FA5807900A42321 /* AppUnlockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E313AD02FA5199300A42321 /* AppUnlockStore.swift */; };
+		6E6178902F85E11A006CCEA9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E61788F2F85E11A006CCEA9 /* WidgetKit.framework */; };
+		6E6178922F85E11A006CCEA9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6178912F85E11A006CCEA9 /* SwiftUI.framework */; };
+		6E6178A32F85E11B006CCEA9 /* RBWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6E61788E2F85E11A006CCEA9 /* RBWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E8439D62F8ECF01006354ED /* DeviceActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF149742F8D7B9C00160E80 /* DeviceActivityManager.swift */; };
+		6E8439D72F8ECF01006354ED /* DeviceActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF149742F8D7B9C00160E80 /* DeviceActivityManager.swift */; };
+		6E8439D82F8ECF01006354ED /* DeviceActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF149742F8D7B9C00160E80 /* DeviceActivityManager.swift */; };
+		6E843E462F8FD9A7006354ED /* LimitPresetSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDDE6492C642D8A411669E /* LimitPresetSchedule.swift */; };
+		6E843E472F8FD9A7006354ED /* LimitPresetSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDDE6492C642D8A411669E /* LimitPresetSchedule.swift */; };
+		6E843E482F8FD9A7006354ED /* LimitPresetSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDDE6492C642D8A411669E /* LimitPresetSchedule.swift */; };
+		6E843E492F8FD9A7006354ED /* LimitPresetSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDDE6492C642D8A411669E /* LimitPresetSchedule.swift */; };
+		6E843E4A2F8FD9B2006354ED /* LocationRestrictionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF01 /* LocationRestrictionManager.swift */; };
+		6E843E4B2F8FD9B2006354ED /* LocationRestrictionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF01 /* LocationRestrictionManager.swift */; };
+		6E843E4C2F8FD9B2006354ED /* LocationRestrictionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF01 /* LocationRestrictionManager.swift */; };
+		6E843E4D2F8FD9B2006354ED /* LocationRestrictionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF01 /* LocationRestrictionManager.swift */; };
+		6E843E4E2F8FD9B2006354ED /* LocationRestrictionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF01 /* LocationRestrictionManager.swift */; };
+		6E90E12B2F9D510F00E24ECB /* PresetTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90E12A2F9D510D00E24ECB /* PresetTypes.swift */; };
+		6E90E12C2F9D510F00E24ECB /* PresetTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90E12A2F9D510D00E24ECB /* PresetTypes.swift */; };
+		6E90E12D2F9D510F00E24ECB /* PresetTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90E12A2F9D510D00E24ECB /* PresetTypes.swift */; };
+		6E90E12E2F9D510F00E24ECB /* PresetTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90E12A2F9D510D00E24ECB /* PresetTypes.swift */; };
+		6E90E12F2F9D510F00E24ECB /* PresetTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90E12A2F9D510D00E24ECB /* PresetTypes.swift */; };
+		6E90E1302F9D510F00E24ECB /* PresetTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90E12A2F9D510D00E24ECB /* PresetTypes.swift */; };
+		6E90E1342F9D53F200E24ECB /* PresetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90E1332F9D53F000E24ECB /* PresetStore.swift */; };
+		6E90E1352F9D53F200E24ECB /* PresetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90E1332F9D53F000E24ECB /* PresetStore.swift */; };
+		6E90E1362F9D53F200E24ECB /* PresetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90E1332F9D53F000E24ECB /* PresetStore.swift */; };
+		6E90E1372F9D53F200E24ECB /* PresetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90E1332F9D53F000E24ECB /* PresetStore.swift */; };
+		6E90E1382F9D53F200E24ECB /* PresetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90E1332F9D53F000E24ECB /* PresetStore.swift */; };
+		6E90E1392F9D53F200E24ECB /* PresetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90E1332F9D53F000E24ECB /* PresetStore.swift */; };
+		6EA25E2F2F79C526007A3BAA /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA25E2E2F79C526007A3BAA /* ManagedSettings.framework */; };
+		6EA25E372F79C526007A3BAA /* RBShieldAction.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6EA25E2C2F79C526007A3BAA /* RBShieldAction.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6EBF1A0E2F8B0180000E59A7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		6EBF1A102F8B0180000E59A7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		6EBF1A112F8B0180000E59A7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		6EBF1A122F8B0180000E59A7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		6EBF1A132F8B0180000E59A7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		6EBF1A142F8B0180000E59A7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		6ED9837E2FA926B400DBF262 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9837D2FA926B400DBF262 /* PrivacyInfo.xcprivacy */; };
+		6ED9837F2FA926B400DBF262 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9837D2FA926B400DBF262 /* PrivacyInfo.xcprivacy */; };
+		6ED983802FA926B400DBF262 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9837D2FA926B400DBF262 /* PrivacyInfo.xcprivacy */; };
+		6ED983812FA926B400DBF262 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9837D2FA926B400DBF262 /* PrivacyInfo.xcprivacy */; };
+		6ED983822FA926B400DBF262 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9837D2FA926B400DBF262 /* PrivacyInfo.xcprivacy */; };
+		6ED983842FA926B400DBF262 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9837D2FA926B400DBF262 /* PrivacyInfo.xcprivacy */; };
+		6EF149762F8D7B9C00160E80 /* DeviceActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF149742F8D7B9C00160E80 /* DeviceActivityManager.swift */; };
+		6EF149772F8D7B9C00160E80 /* DeviceActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF149742F8D7B9C00160E80 /* DeviceActivityManager.swift */; };
+		6EF149782F8D7CC200160E80 /* DeviceActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF149742F8D7B9C00160E80 /* DeviceActivityManager.swift */; };
+		6EF5BCCA2F8834B100ACCF46 /* FamilyControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5CCE5E2F81A657004DBF3A /* FamilyControls.framework */; };
+		6EF5BFA52F88700A00ACCF46 /* RBDeviceActivityReport.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = 6EF5BF992F88700A00ACCF46 /* RBDeviceActivityReport.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1B2C3D12F7889E9002C6E03 /* RBDeviceActivityMonitor.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1B2C3D12F7889E9002C6E02 /* RBDeviceActivityMonitor.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA11BB22CC33DD44EE55FF00 /* LocationRestrictionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF01 /* LocationRestrictionManager.swift */; };
+		CC000100000000000000CC03 /* ManagedSettingsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC000100000000000000CC02 /* ManagedSettingsUI.framework */; };
+		CC000100000000000000CC04 /* RBShieldConfig.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CC000100000000000000CC01 /* RBShieldConfig.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF00000100000000000AA00F /* FamilyControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5CCE5E2F81A657004DBF3A /* FamilyControls.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E2187FF2FB0E80F00184223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9514AB2F7889E9002C6D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9514B22F7889E9002C6D5E;
+			remoteInfo = Rotblock;
+		};
+		6E6178A12F85E11B006CCEA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9514AB2F7889E9002C6D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E61788D2F85E11A006CCEA9;
+			remoteInfo = RBWidgetExtension;
+		};
+		6EA25E352F79C526007A3BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9514AB2F7889E9002C6D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EA25E2B2F79C526007A3BAA;
+			remoteInfo = ShieldAction;
+		};
+		6EF5BFA32F88700A00ACCF46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9514AB2F7889E9002C6D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EF5BF982F88700A00ACCF46;
+			remoteInfo = DeviceActivityReport;
+		};
+		A1B2C3D12F7889E9002C6E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9514AB2F7889E9002C6D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B2C3D12F7889E9002C6E0B;
+			remoteInfo = RBDeviceActivityMonitor;
+		};
+		CC000100000000000000CC05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9514AB2F7889E9002C6D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC000100000000000000CC0C;
+			remoteInfo = RBShieldConfig;
+		};
+		FF00000100000000000AA00C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9514AB2F7889E9002C6D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9514B22F7889E9002C6D5E;
+			remoteInfo = Rotblock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6EF5BFAA2F88700A00ACCF46 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				6EF5BFA52F88700A00ACCF46 /* RBDeviceActivityReport.appex in Embed ExtensionKit Extensions */,
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4C2A102F7889E9002C6D0B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6E6178A32F85E11B006CCEA9 /* RBWidget.appex in Embed App Extensions */,
+				6EA25E372F79C526007A3BAA /* RBShieldAction.appex in Embed App Extensions */,
+				A1B2C3D12F7889E9002C6E03 /* RBDeviceActivityMonitor.appex in Embed App Extensions */,
+				CC000100000000000000CC04 /* RBShieldConfig.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6E217D7F2FAE4A9E00184223 /* ShieldConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldConfigManager.swift; sourceTree = "<group>"; };
+		6E217D862FAE564600184223 /* ShieldActionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldActionManager.swift; sourceTree = "<group>"; };
+		6E2180FD2FB0DC1900184223 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		6E2187F92FB0E80F00184223 /* RBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E21880A2FB0EDAE00184223 /* Rotblock.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rotblock.xctestplan; sourceTree = "<group>"; };
+		6E2188BE2FB145D900184223 /* WidgetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetManager.swift; sourceTree = "<group>"; };
+		6E218D432FB24C6800184223 /* PresetIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetIntents.swift; sourceTree = "<group>"; };
+		6E313AD02FA5199300A42321 /* AppUnlockStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUnlockStore.swift; sourceTree = "<group>"; };
+		6E313AD72FA556D800A42321 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		6E5CCE5E2F81A657004DBF3A /* FamilyControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FamilyControls.framework; path = System/Library/Frameworks/FamilyControls.framework; sourceTree = SDKROOT; };
+		6E61788E2F85E11A006CCEA9 /* RBWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RBWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E61788F2F85E11A006CCEA9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6E6178912F85E11A006CCEA9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6E90E12A2F9D510D00E24ECB /* PresetTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetTypes.swift; sourceTree = "<group>"; };
+		6E90E1332F9D53F000E24ECB /* PresetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetStore.swift; sourceTree = "<group>"; };
+		6E9514B32F7889E9002C6D5E /* Rotblock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rotblock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA25E2C2F79C526007A3BAA /* RBShieldAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RBShieldAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA25E2E2F79C526007A3BAA /* ManagedSettings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettings.framework; path = System/Library/Frameworks/ManagedSettings.framework; sourceTree = SDKROOT; };
+		6ED9837D2FA926B400DBF262 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		6EF149742F8D7B9C00160E80 /* DeviceActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityManager.swift; sourceTree = "<group>"; };
+		6EF5BF992F88700A00ACCF46 /* RBDeviceActivityReport.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = RBDeviceActivityReport.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D12F7889E9002C6E02 /* RBDeviceActivityMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RBDeviceActivityMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA11BB22CC33DD44EE55FF01 /* LocationRestrictionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRestrictionManager.swift; sourceTree = "<group>"; };
+		CC000100000000000000CC01 /* RBShieldConfig.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RBShieldConfig.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC000100000000000000CC02 /* ManagedSettingsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettingsUI.framework; path = System/Library/Frameworks/ManagedSettingsUI.framework; sourceTree = SDKROOT; };
+		CCCDDE6492C642D8A411669E /* LimitPresetSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitPresetSchedule.swift; sourceTree = "<group>"; };
+		FF00000100000000000AA001 /* RBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6E5CCE692F81A77A004DBF3A /* Exceptions for "Rotblock" folder in "Rotblock" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/DateComponents+Extension.swift",
+				"Extensions/DeviceActivity+Extensions.swift",
+				"Extensions/TimeInterval+Extensions.swift",
+				Info.plist,
+			);
+			target = 6E9514B22F7889E9002C6D5E /* Rotblock */;
+		};
+		6E6178A72F85E11B006CCEA9 /* Exceptions for "RBWidget" folder in "RBWidget" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6E61788D2F85E11A006CCEA9 /* RBWidget */;
+		};
+		6E8F466F2F95D6F100B231DB /* Exceptions for "Rotblock" folder in "RBWidget" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Components/Theme/RBIcons.swift,
+				Components/Theme/RBPrimitives.swift,
+				Components/Theme/RBTheme.swift,
+			);
+			target = 6E61788D2F85E11A006CCEA9 /* RBWidget */;
+		};
+		6EA25E382F79C526007A3BAA /* Exceptions for "RBShieldAction" folder in "RBShieldAction" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6EA25E2B2F79C526007A3BAA /* RBShieldAction */;
+		};
+		6EF5BCBB2F8834B100ACCF46 /* Exceptions for "Rotblock" folder in "RBDeviceActivityMonitor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/DateComponents+Extension.swift",
+				"Extensions/DeviceActivity+Extensions.swift",
+				"Extensions/TimeInterval+Extensions.swift",
+			);
+			target = A1B2C3D12F7889E9002C6E0B /* RBDeviceActivityMonitor */;
+		};
+		6EF5C0782F8ABFDC00ACCF46 /* Exceptions for "RBDeviceActivityReport" folder in "RBWidget" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DashboardComponents.swift,
+				DeviceActivityReport.swift,
+				Info.plist,
+				RotblockTodayReport.swift,
+				TotalActivityReport.swift,
+				TotalActivityView.swift,
+			);
+			target = 6E61788D2F85E11A006CCEA9 /* RBWidget */;
+		};
+		6EF5C0792F8ABFDC00ACCF46 /* Exceptions for "RBDeviceActivityReport" folder in "RBDeviceActivityReport" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DashboardComponents.swift,
+				DeviceActivityReport.swift,
+				RotblockTodayReport.swift,
+				TotalActivityReport.swift,
+				TotalActivityView.swift,
+			);
+			target = 6EF5BF982F88700A00ACCF46 /* RBDeviceActivityReport */;
+		};
+		A1B2C3D12F7889E9002C6E06 /* Exceptions for "RBDeviceActivityMonitor" folder in "RBDeviceActivityMonitor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A1B2C3D12F7889E9002C6E0B /* RBDeviceActivityMonitor */;
+		};
+		CC000100000000000000CC07 /* Exceptions for "RBShieldConfig" folder in "RBShieldConfig" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CC000100000000000000CC0C /* RBShieldConfig */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6E2180FC2FAFE63900184223 /* Util */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Util;
+			sourceTree = "<group>";
+		};
+		6E2187FA2FB0E80F00184223 /* RBUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RBUITests;
+			sourceTree = "<group>";
+		};
+		6E6178932F85E11A006CCEA9 /* RBWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6E6178A72F85E11B006CCEA9 /* Exceptions for "RBWidget" folder in "RBWidget" target */,
+			);
+			path = RBWidget;
+			sourceTree = "<group>";
+		};
+		6E9514B52F7889E9002C6D5E /* Rotblock */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6E5CCE692F81A77A004DBF3A /* Exceptions for "Rotblock" folder in "Rotblock" target */,
+				6EF5BCBB2F8834B100ACCF46 /* Exceptions for "Rotblock" folder in "RBDeviceActivityMonitor" target */,
+				6E8F466F2F95D6F100B231DB /* Exceptions for "Rotblock" folder in "RBWidget" target */,
+			);
+			path = Rotblock;
+			sourceTree = "<group>";
+		};
+		6EA25E302F79C526007A3BAA /* RBShieldAction */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6EA25E382F79C526007A3BAA /* Exceptions for "RBShieldAction" folder in "RBShieldAction" target */,
+			);
+			path = RBShieldAction;
+			sourceTree = "<group>";
+		};
+		6EF5C0742F8ABFDB00ACCF46 /* RBDeviceActivityReport */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6EF5C0782F8ABFDC00ACCF46 /* Exceptions for "RBDeviceActivityReport" folder in "RBWidget" target */,
+				6EF5C0792F8ABFDC00ACCF46 /* Exceptions for "RBDeviceActivityReport" folder in "RBDeviceActivityReport" target */,
+			);
+			path = RBDeviceActivityReport;
+			sourceTree = "<group>";
+		};
+		A1B2C3D12F7889E9002C6E07 /* RBDeviceActivityMonitor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A1B2C3D12F7889E9002C6E06 /* Exceptions for "RBDeviceActivityMonitor" folder in "RBDeviceActivityMonitor" target */,
+			);
+			path = RBDeviceActivityMonitor;
+			sourceTree = "<group>";
+		};
+		CC000100000000000000CC08 /* RBShieldConfig */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CC000100000000000000CC07 /* Exceptions for "RBShieldConfig" folder in "RBShieldConfig" target */,
+			);
+			path = RBShieldConfig;
+			sourceTree = "<group>";
+		};
+		FF00000100000000000AA009 /* RBTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RBTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E2187F62FB0E80F00184223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E61788B2F85E11A006CCEA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF5BCCA2F8834B100ACCF46 /* FamilyControls.framework in Frameworks */,
+				6E6178922F85E11A006CCEA9 /* SwiftUI.framework in Frameworks */,
+				6E6178902F85E11A006CCEA9 /* WidgetKit.framework in Frameworks */,
+				6EBF1A122F8B0180000E59A7 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9514B02F7889E9002C6D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBF1A0E2F8B0180000E59A7 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA25E292F79C526007A3BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA25E2F2F79C526007A3BAA /* ManagedSettings.framework in Frameworks */,
+				6EBF1A102F8B0180000E59A7 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF5BF962F88700A00ACCF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBF1A132F8B0180000E59A7 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D12F7889E9002C6E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E313AD92FA556EB00A42321 /* ManagedSettings.framework in Frameworks */,
+				6E313AD82FA556D800A42321 /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC000100000000000000CC0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC000100000000000000CC03 /* ManagedSettingsUI.framework in Frameworks */,
+				6EBF1A112F8B0180000E59A7 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF00000100000000000AA004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBF1A142F8B0180000E59A7 /* (null) in Frameworks */,
+				FF00000100000000000AA00F /* FamilyControls.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E9514AA2F7889E8002C6D5E = {
+			isa = PBXGroup;
+			children = (
+				6E21880A2FB0EDAE00184223 /* Rotblock.xctestplan */,
+				6ED9837D2FA926B400DBF262 /* PrivacyInfo.xcprivacy */,
+				6E9514B52F7889E9002C6D5E /* Rotblock */,
+				FF00000100000000000AA009 /* RBTests */,
+				A1B2C3D12F7889E9002C6E07 /* RBDeviceActivityMonitor */,
+				6EA25E302F79C526007A3BAA /* RBShieldAction */,
+				6E6178932F85E11A006CCEA9 /* RBWidget */,
+				CC000100000000000000CC08 /* RBShieldConfig */,
+				6E2187FA2FB0E80F00184223 /* RBUITests */,
+				6EF5C0742F8ABFDB00ACCF46 /* RBDeviceActivityReport */,
+				6EA25E2D2F79C526007A3BAA /* Frameworks */,
+				6E9514B42F7889E9002C6D5E /* Products */,
+				6EF149752F8D7B9C00160E80 /* Shared */,
+			);
+			sourceTree = "<group>";
+		};
+		6E9514B42F7889E9002C6D5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E9514B32F7889E9002C6D5E /* Rotblock.app */,
+				A1B2C3D12F7889E9002C6E02 /* RBDeviceActivityMonitor.appex */,
+				6EA25E2C2F79C526007A3BAA /* RBShieldAction.appex */,
+				CC000100000000000000CC01 /* RBShieldConfig.appex */,
+				FF00000100000000000AA001 /* RBTests.xctest */,
+				6E61788E2F85E11A006CCEA9 /* RBWidget.appex */,
+				6EF5BF992F88700A00ACCF46 /* RBDeviceActivityReport.appex */,
+				6E2187F92FB0E80F00184223 /* RBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EA25E2D2F79C526007A3BAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E313AD72FA556D800A42321 /* DeviceActivity.framework */,
+				6E5CCE5E2F81A657004DBF3A /* FamilyControls.framework */,
+				6EA25E2E2F79C526007A3BAA /* ManagedSettings.framework */,
+				CC000100000000000000CC02 /* ManagedSettingsUI.framework */,
+				6E61788F2F85E11A006CCEA9 /* WidgetKit.framework */,
+				6E6178912F85E11A006CCEA9 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EF149752F8D7B9C00160E80 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6E2188BE2FB145D900184223 /* WidgetManager.swift */,
+				6E2180FD2FB0DC1900184223 /* LocalNotificationManager.swift */,
+				6E2180FC2FAFE63900184223 /* Util */,
+				6E217D862FAE564600184223 /* ShieldActionManager.swift */,
+				6E217D7F2FAE4A9E00184223 /* ShieldConfigManager.swift */,
+				6E313AD02FA5199300A42321 /* AppUnlockStore.swift */,
+				6E90E1332F9D53F000E24ECB /* PresetStore.swift */,
+				6E90E12A2F9D510D00E24ECB /* PresetTypes.swift */,
+				6EF149742F8D7B9C00160E80 /* DeviceActivityManager.swift */,
+				CCCDDE6492C642D8A411669E /* LimitPresetSchedule.swift */,
+				AA11BB22CC33DD44EE55FF01 /* LocationRestrictionManager.swift */,
+				6E218D432FB24C6800184223 /* PresetIntents.swift */,
+			);
+			path = Shared;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E2187F82FB0E80F00184223 /* RBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2188012FB0E80F00184223 /* Build configuration list for PBXNativeTarget "RBUITests" */;
+			buildPhases = (
+				6E2187F52FB0E80F00184223 /* Sources */,
+				6E2187F62FB0E80F00184223 /* Frameworks */,
+				6E2187F72FB0E80F00184223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E2188002FB0E80F00184223 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6E2187FA2FB0E80F00184223 /* RBUITests */,
+			);
+			name = RBUITests;
+			packageProductDependencies = (
+			);
+			productName = RBUITests;
+			productReference = 6E2187F92FB0E80F00184223 /* RBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6E61788D2F85E11A006CCEA9 /* RBWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6178A42F85E11B006CCEA9 /* Build configuration list for PBXNativeTarget "RBWidget" */;
+			buildPhases = (
+				6E61788A2F85E11A006CCEA9 /* Sources */,
+				6E61788B2F85E11A006CCEA9 /* Frameworks */,
+				6E61788C2F85E11A006CCEA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6E2180FC2FAFE63900184223 /* Util */,
+				6E6178932F85E11A006CCEA9 /* RBWidget */,
+				6EF5C0742F8ABFDB00ACCF46 /* RBDeviceActivityReport */,
+			);
+			name = RBWidget;
+			packageProductDependencies = (
+			);
+			productName = RBWidgetExtension;
+			productReference = 6E61788E2F85E11A006CCEA9 /* RBWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6E9514B22F7889E9002C6D5E /* Rotblock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9514BE2F7889EA002C6D5E /* Build configuration list for PBXNativeTarget "Rotblock" */;
+			buildPhases = (
+				6E9514AF2F7889E9002C6D5E /* Sources */,
+				6E9514B02F7889E9002C6D5E /* Frameworks */,
+				6E9514B12F7889E9002C6D5E /* Resources */,
+				8B4C2A102F7889E9002C6D0B /* Embed App Extensions */,
+				AABB112200000000AABB1122 /* SwiftLint */,
+				6EF5BFAA2F88700A00ACCF46 /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B2C3D12F7889E9002C6E05 /* PBXTargetDependency */,
+				6EA25E362F79C526007A3BAA /* PBXTargetDependency */,
+				CC000100000000000000CC06 /* PBXTargetDependency */,
+				6E6178A22F85E11B006CCEA9 /* PBXTargetDependency */,
+				6EF5BFA42F88700A00ACCF46 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6E2180FC2FAFE63900184223 /* Util */,
+				6E9514B52F7889E9002C6D5E /* Rotblock */,
+			);
+			name = Rotblock;
+			packageProductDependencies = (
+			);
+			productName = Rotblock;
+			productReference = 6E9514B32F7889E9002C6D5E /* Rotblock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EA25E2B2F79C526007A3BAA /* RBShieldAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA25E392F79C526007A3BAA /* Build configuration list for PBXNativeTarget "RBShieldAction" */;
+			buildPhases = (
+				6EA25E282F79C526007A3BAA /* Sources */,
+				6EA25E292F79C526007A3BAA /* Frameworks */,
+				6EA25E2A2F79C526007A3BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6E2180FC2FAFE63900184223 /* Util */,
+				6EA25E302F79C526007A3BAA /* RBShieldAction */,
+			);
+			name = RBShieldAction;
+			packageProductDependencies = (
+			);
+			productName = ShieldAction;
+			productReference = 6EA25E2C2F79C526007A3BAA /* RBShieldAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6EF5BF982F88700A00ACCF46 /* RBDeviceActivityReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EF5BFA62F88700A00ACCF46 /* Build configuration list for PBXNativeTarget "RBDeviceActivityReport" */;
+			buildPhases = (
+				6EF5BF952F88700A00ACCF46 /* Sources */,
+				6EF5BF962F88700A00ACCF46 /* Frameworks */,
+				6EF5BF972F88700A00ACCF46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6E2180FC2FAFE63900184223 /* Util */,
+			);
+			name = RBDeviceActivityReport;
+			packageProductDependencies = (
+			);
+			productName = DeviceActivityReport;
+			productReference = 6EF5BF992F88700A00ACCF46 /* RBDeviceActivityReport.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+		A1B2C3D12F7889E9002C6E0B /* RBDeviceActivityMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D12F7889E9002C6E0C /* Build configuration list for PBXNativeTarget "RBDeviceActivityMonitor" */;
+			buildPhases = (
+				A1B2C3D12F7889E9002C6E0A /* Sources */,
+				A1B2C3D12F7889E9002C6E08 /* Frameworks */,
+				A1B2C3D12F7889E9002C6E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6E2180FC2FAFE63900184223 /* Util */,
+				A1B2C3D12F7889E9002C6E07 /* RBDeviceActivityMonitor */,
+			);
+			name = RBDeviceActivityMonitor;
+			packageProductDependencies = (
+			);
+			productName = RBDeviceActivityMonitor;
+			productReference = A1B2C3D12F7889E9002C6E02 /* RBDeviceActivityMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CC000100000000000000CC0C /* RBShieldConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC000100000000000000CC0F /* Build configuration list for PBXNativeTarget "RBShieldConfig" */;
+			buildPhases = (
+				CC000100000000000000CC09 /* Sources */,
+				CC000100000000000000CC0A /* Frameworks */,
+				CC000100000000000000CC0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6E2180FC2FAFE63900184223 /* Util */,
+				CC000100000000000000CC08 /* RBShieldConfig */,
+			);
+			name = RBShieldConfig;
+			packageProductDependencies = (
+			);
+			productName = RBShieldConfig;
+			productReference = CC000100000000000000CC01 /* RBShieldConfig.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FF00000100000000000AA002 /* RBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF00000100000000000AA008 /* Build configuration list for PBXNativeTarget "RBTests" */;
+			buildPhases = (
+				FF00000100000000000AA003 /* Sources */,
+				FF00000100000000000AA004 /* Frameworks */,
+				FF00000100000000000AA005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF00000100000000000AA00B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FF00000100000000000AA009 /* RBTests */,
+			);
+			name = RBTests;
+			packageProductDependencies = (
+			);
+			productName = RBTests;
+			productReference = FF00000100000000000AA001 /* RBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E9514AB2F7889E9002C6D5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					6E2187F82FB0E80F00184223 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = 6E9514B22F7889E9002C6D5E;
+					};
+					6E61788D2F85E11A006CCEA9 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					6E9514B22F7889E9002C6D5E = {
+						CreatedOnToolsVersion = 26.4;
+						DevelopmentTeam = CJ9NKBVX97;
+						ProvisioningStyle = Automatic;
+					};
+					6EA25E2B2F79C526007A3BAA = {
+						CreatedOnToolsVersion = 26.4;
+						DevelopmentTeam = CJ9NKBVX97;
+						ProvisioningStyle = Automatic;
+					};
+					6EF5BF982F88700A00ACCF46 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					A1B2C3D12F7889E9002C6E0B = {
+						CreatedOnToolsVersion = 26.4;
+						DevelopmentTeam = CJ9NKBVX97;
+						ProvisioningStyle = Automatic;
+					};
+					CC000100000000000000CC0C = {
+						CreatedOnToolsVersion = 26.4;
+						DevelopmentTeam = CJ9NKBVX97;
+						ProvisioningStyle = Automatic;
+					};
+					FF00000100000000000AA002 = {
+						CreatedOnToolsVersion = 26.4;
+						DevelopmentTeam = CJ9NKBVX97;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E9514B22F7889E9002C6D5E;
+					};
+				};
+			};
+			buildConfigurationList = 6E9514AE2F7889E9002C6D5E /* Build configuration list for PBXProject "Rotblock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E9514AA2F7889E8002C6D5E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6E9514B42F7889E9002C6D5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E9514B22F7889E9002C6D5E /* Rotblock */,
+				A1B2C3D12F7889E9002C6E0B /* RBDeviceActivityMonitor */,
+				6EA25E2B2F79C526007A3BAA /* RBShieldAction */,
+				CC000100000000000000CC0C /* RBShieldConfig */,
+				FF00000100000000000AA002 /* RBTests */,
+				6E61788D2F85E11A006CCEA9 /* RBWidget */,
+				6EF5BF982F88700A00ACCF46 /* RBDeviceActivityReport */,
+				6E2187F82FB0E80F00184223 /* RBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E2187F72FB0E80F00184223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E61788C2F85E11A006CCEA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED9837E2FA926B400DBF262 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9514B12F7889E9002C6D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED9837F2FA926B400DBF262 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA25E2A2F79C526007A3BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED983812FA926B400DBF262 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF5BF972F88700A00ACCF46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED983842FA926B400DBF262 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D12F7889E9002C6E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED983802FA926B400DBF262 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC000100000000000000CC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED983822FA926B400DBF262 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF00000100000000000AA005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AABB112200000000AABB1122 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/swiftlint.stamp",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint --fix --quiet\nelse\n  echo \"warning: SwiftLint not installed\"\nfi\ntouch \"${DERIVED_FILE_DIR}/swiftlint.stamp\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E2187F52FB0E80F00184223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E61788A2F85E11A006CCEA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E217D842FAE4AA200184223 /* ShieldConfigManager.swift in Sources */,
+				6E218D472FB24C6800184223 /* PresetIntents.swift in Sources */,
+				6E2188C12FB145DB00184223 /* WidgetManager.swift in Sources */,
+				6E8439D72F8ECF01006354ED /* DeviceActivityManager.swift in Sources */,
+				6E217D872FAE564900184223 /* ShieldActionManager.swift in Sources */,
+				6E843E4D2F8FD9B2006354ED /* LocationRestrictionManager.swift in Sources */,
+				6E2180FF2FB0DC1D00184223 /* LocalNotificationManager.swift in Sources */,
+				6E90E12C2F9D510F00E24ECB /* PresetTypes.swift in Sources */,
+				6E313AD42FA5199600A42321 /* AppUnlockStore.swift in Sources */,
+				6E90E1382F9D53F200E24ECB /* PresetStore.swift in Sources */,
+				1C8E064F6905482DBF1A5286 /* LimitPresetSchedule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9514AF2F7889E9002C6D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E217D812FAE4AA200184223 /* ShieldConfigManager.swift in Sources */,
+				6E313AD32FA5199600A42321 /* AppUnlockStore.swift in Sources */,
+				6EF149762F8D7B9C00160E80 /* DeviceActivityManager.swift in Sources */,
+				1F4FB91A3F8E4763A79CB09B /* LimitPresetSchedule.swift in Sources */,
+				6E90E1352F9D53F200E24ECB /* PresetStore.swift in Sources */,
+				6E90E12F2F9D510F00E24ECB /* PresetTypes.swift in Sources */,
+				6E2180FE2FB0DC1D00184223 /* LocalNotificationManager.swift in Sources */,
+				6E218D4C2FB24C6800184223 /* PresetIntents.swift in Sources */,
+				6E217D882FAE564900184223 /* ShieldActionManager.swift in Sources */,
+				6E2188C32FB145DB00184223 /* WidgetManager.swift in Sources */,
+				AA11BB22CC33DD44EE55FF00 /* LocationRestrictionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA25E282F79C526007A3BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E313AD62FA5199600A42321 /* AppUnlockStore.swift in Sources */,
+				6E90E12E2F9D510F00E24ECB /* PresetTypes.swift in Sources */,
+				6E2181002FB0DC1D00184223 /* LocalNotificationManager.swift in Sources */,
+				6E90E1362F9D53F200E24ECB /* PresetStore.swift in Sources */,
+				6EF149772F8D7B9C00160E80 /* DeviceActivityManager.swift in Sources */,
+				6E843E472F8FD9A7006354ED /* LimitPresetSchedule.swift in Sources */,
+				6E217D8B2FAE564900184223 /* ShieldActionManager.swift in Sources */,
+				6E2188C22FB145DB00184223 /* WidgetManager.swift in Sources */,
+				6E843E4B2F8FD9B2006354ED /* LocationRestrictionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF5BF952F88700A00ACCF46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2181022FB0DC1D00184223 /* LocalNotificationManager.swift in Sources */,
+				6E8439D82F8ECF01006354ED /* DeviceActivityManager.swift in Sources */,
+				6E90E12B2F9D510F00E24ECB /* PresetTypes.swift in Sources */,
+				6E313ADB2FA5807900A42321 /* AppUnlockStore.swift in Sources */,
+				6E90E1392F9D53F200E24ECB /* PresetStore.swift in Sources */,
+				6E2188BF2FB145DB00184223 /* WidgetManager.swift in Sources */,
+				6E843E4E2F8FD9B2006354ED /* LocationRestrictionManager.swift in Sources */,
+				6E217D892FAE564900184223 /* ShieldActionManager.swift in Sources */,
+				6E843E492F8FD9A7006354ED /* LimitPresetSchedule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D12F7889E9002C6E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E90E12D2F9D510F00E24ECB /* PresetTypes.swift in Sources */,
+				6E90E1342F9D53F200E24ECB /* PresetStore.swift in Sources */,
+				6E843E4A2F8FD9B2006354ED /* LocationRestrictionManager.swift in Sources */,
+				6E843E462F8FD9A7006354ED /* LimitPresetSchedule.swift in Sources */,
+				6EF149782F8D7CC200160E80 /* DeviceActivityManager.swift in Sources */,
+				6E313AD12FA5199600A42321 /* AppUnlockStore.swift in Sources */,
+				6E217D8C2FAE564900184223 /* ShieldActionManager.swift in Sources */,
+				6E217D822FAE4AA200184223 /* ShieldConfigManager.swift in Sources */,
+				6E2188C02FB145DB00184223 /* WidgetManager.swift in Sources */,
+				6E2181012FB0DC1D00184223 /* LocalNotificationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC000100000000000000CC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2181032FB0DC1D00184223 /* LocalNotificationManager.swift in Sources */,
+				6E843E4C2F8FD9B2006354ED /* LocationRestrictionManager.swift in Sources */,
+				6E217D8A2FAE564900184223 /* ShieldActionManager.swift in Sources */,
+				6E313ADA2FA5807900A42321 /* AppUnlockStore.swift in Sources */,
+				6E2188C42FB145DB00184223 /* WidgetManager.swift in Sources */,
+				6E90E1372F9D53F200E24ECB /* PresetStore.swift in Sources */,
+				6E90E1302F9D510F00E24ECB /* PresetTypes.swift in Sources */,
+				6E8439D62F8ECF01006354ED /* DeviceActivityManager.swift in Sources */,
+				6E217D852FAE4AA200184223 /* ShieldConfigManager.swift in Sources */,
+				6E843E482F8FD9A7006354ED /* LimitPresetSchedule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF00000100000000000AA003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E2188002FB0E80F00184223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9514B22F7889E9002C6D5E /* Rotblock */;
+			targetProxy = 6E2187FF2FB0E80F00184223 /* PBXContainerItemProxy */;
+		};
+		6E6178A22F85E11B006CCEA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E61788D2F85E11A006CCEA9 /* RBWidget */;
+			targetProxy = 6E6178A12F85E11B006CCEA9 /* PBXContainerItemProxy */;
+		};
+		6EA25E362F79C526007A3BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EA25E2B2F79C526007A3BAA /* RBShieldAction */;
+			targetProxy = 6EA25E352F79C526007A3BAA /* PBXContainerItemProxy */;
+		};
+		6EF5BFA42F88700A00ACCF46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EF5BF982F88700A00ACCF46 /* RBDeviceActivityReport */;
+			targetProxy = 6EF5BFA32F88700A00ACCF46 /* PBXContainerItemProxy */;
+		};
+		A1B2C3D12F7889E9002C6E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B2C3D12F7889E9002C6E0B /* RBDeviceActivityMonitor */;
+			targetProxy = A1B2C3D12F7889E9002C6E04 /* PBXContainerItemProxy */;
+		};
+		CC000100000000000000CC06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC000100000000000000CC0C /* RBShieldConfig */;
+			targetProxy = CC000100000000000000CC05 /* PBXContainerItemProxy */;
+		};
+		FF00000100000000000AA00B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9514B22F7889E9002C6D5E /* Rotblock */;
+			targetProxy = FF00000100000000000AA00C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E2188022FB0E80F00184223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.RBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rotblock;
+			};
+			name = Debug;
+		};
+		6E2188032FB0E80F00184223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.RBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rotblock;
+			};
+			name = Release;
+		};
+		6E6178A52F85E11B006CCEA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = RBWidget/RBWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RBWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RBWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock.RBWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E6178A62F85E11B006CCEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = RBWidget/RBWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RBWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RBWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock.RBWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E9514BC2F7889EA002C6D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		6E9514BD2F7889EA002C6D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+		6E9514BF2F7889EA002C6D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Rotblock/rotblock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rotblock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Rotblock;
+				INFOPLIST_KEY_NSFamilyControlsUsageDescription = "Rotblock uses Screen Time to show how you use your device and to apply the limits you choose.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E9514C02F7889EA002C6D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Rotblock/rotblock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rotblock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Rotblock;
+				INFOPLIST_KEY_NSFamilyControlsUsageDescription = "Rotblock uses Screen Time to show how you use your device and to apply the limits you choose.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EA25E3A2F79C526007A3BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RBShieldAction/ShieldAction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RBShieldAction/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock.ShieldAction;
+				PRODUCT_NAME = RBShieldAction;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EA25E3B2F79C526007A3BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RBShieldAction/ShieldAction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				ENABLE_DEBUG_DYLIB = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RBShieldAction/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock.ShieldAction;
+				PRODUCT_NAME = RBShieldAction;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EF5BFA72F88700A00ACCF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RBDeviceActivityReport/DeviceActivityReport.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RBDeviceActivityReport/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeviceActivityReport;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock.DeviceActivityReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EF5BFA82F88700A00ACCF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RBDeviceActivityReport/DeviceActivityReport.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RBDeviceActivityReport/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeviceActivityReport;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock.DeviceActivityReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1B2C3D12F7889E9002C6E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = RBDeviceActivityMonitor/RBDeviceActivityMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RBDeviceActivityMonitor/Info.plist;
+				INFOPLIST_KEY_NSFamilyControlsUsageDescription = "Rotblock uses Screen Time to apply the limits you choose.";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock.DeviceActivityMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B2C3D12F7889E9002C6E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = RBDeviceActivityMonitor/RBDeviceActivityMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				ENABLE_DEBUG_DYLIB = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RBDeviceActivityMonitor/Info.plist;
+				INFOPLIST_KEY_NSFamilyControlsUsageDescription = "Rotblock uses Screen Time to apply the limits you choose.";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock.DeviceActivityMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC000100000000000000CC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = RBShieldConfig/ShieldConfig.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RBShieldConfig/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock.ShieldConfig;
+				PRODUCT_NAME = RBShieldConfig;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC000100000000000000CC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = RBShieldConfig/ShieldConfig.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				ENABLE_DEBUG_DYLIB = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RBShieldConfig/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock.ShieldConfig;
+				PRODUCT_NAME = RBShieldConfig;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF00000100000000000AA006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock.RBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotblock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rotblock";
+			};
+			name = Debug;
+		};
+		FF00000100000000000AA007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CJ9NKBVX97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.n1labs.rotblock.RBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotblock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rotblock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E2188012FB0E80F00184223 /* Build configuration list for PBXNativeTarget "RBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2188022FB0E80F00184223 /* Debug */,
+				6E2188032FB0E80F00184223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6178A42F85E11B006CCEA9 /* Build configuration list for PBXNativeTarget "RBWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6178A52F85E11B006CCEA9 /* Debug */,
+				6E6178A62F85E11B006CCEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9514AE2F7889E9002C6D5E /* Build configuration list for PBXProject "Rotblock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9514BC2F7889EA002C6D5E /* Debug */,
+				6E9514BD2F7889EA002C6D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9514BE2F7889EA002C6D5E /* Build configuration list for PBXNativeTarget "Rotblock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9514BF2F7889EA002C6D5E /* Debug */,
+				6E9514C02F7889EA002C6D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA25E392F79C526007A3BAA /* Build configuration list for PBXNativeTarget "RBShieldAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA25E3A2F79C526007A3BAA /* Debug */,
+				6EA25E3B2F79C526007A3BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EF5BFA62F88700A00ACCF46 /* Build configuration list for PBXNativeTarget "RBDeviceActivityReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF5BFA72F88700A00ACCF46 /* Debug */,
+				6EF5BFA82F88700A00ACCF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B2C3D12F7889E9002C6E0C /* Build configuration list for PBXNativeTarget "RBDeviceActivityMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D12F7889E9002C6E0D /* Debug */,
+				A1B2C3D12F7889E9002C6E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC000100000000000000CC0F /* Build configuration list for PBXNativeTarget "RBShieldConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC000100000000000000CC0D /* Debug */,
+				CC000100000000000000CC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF00000100000000000AA008 /* Build configuration list for PBXNativeTarget "RBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF00000100000000000AA006 /* Debug */,
+				FF00000100000000000AA007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E9514AB2F7889E9002C6D5E /* Project object */;
+}
