@@ -36,5 +36,5 @@ Rotblock requires no account, no sign-in, and no internet connection. Every pres
 
 ### **Note**:
 
-- This project was created for my own personal use, and due to time I am not attentive to it.
+- This project was created by me, assisted by LLMs, for my own personal use. Due to current time constraints, I'm not super attentive to it.
 - If you'd like to give feedback or want to reach out, feel free to write [via email](mailto:nick@n-n.dev)
